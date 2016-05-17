@@ -6,9 +6,16 @@
     margin-right: 30px
     &:last-of-type
       margin-right: 0
+  a
+    &:hover
+      .social-icons__svg
+        fill: $light-blue
+
 .social-icons__svg
   display: block
   width: 27px
   height: 27px
+  fill: $black
+  transition: fill 0.2s ease
   &.is-twitter
     height: 22px
