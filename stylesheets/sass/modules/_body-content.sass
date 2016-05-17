@@ -1,0 +1,11 @@
+.body-content
+  overflow: hidden
+.body-content__column
+  width: 100%
+  display: block
+  +mq(800px)
+    float: left
+    width: percentage(1/3)
+    padding-right: 40px
+    &:last-of-type
+      padding-right: 0
